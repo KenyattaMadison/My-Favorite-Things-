@@ -11,6 +11,19 @@ body {
     height: 100%;
 }
 
+hr{
+    height:2px;
+    background-color:#00ffff;
+}
+
+.carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+     width: 85%;
+     margin: auto;
+   color:#808080;
+   text-shadow:2px 2px #000;
+}
+
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
